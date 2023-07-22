@@ -1,0 +1,35 @@
+body {
+  background-color: rgb(156, 171, 104);
+  font-family: cursive;
+  border: solid 5px;
+  border-color: blueviolet;
+  padding: 4em;
+}
+h1 {
+  font-weight: 200;
+  text-align: center;
+  text-decoration: underline;
+}
+p:hover {
+  background-color: rgb(162, 102, 218);
+}
+
+label:nth-child(even),
+.name,
+.email {
+  color: rgb(71, 5, 68);
+}
+
+input[type="submit"] {
+  background-color: rgb(162, 102, 218);
+  border: 0;
+  color: rgb(18, 18, 18);
+  text-decoration-line: underline;
+  border-radius: 30px;
+  width: 60px;
+  height: 60px;
+}
+
+input {
+  cursor: pointer;
+}
