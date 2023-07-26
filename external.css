@@ -86,18 +86,8 @@ input {
   font-size: 20x;
   z-index: 1;
   position: relative;
+}
 
-}
-.humans {
-  justify-content: flex-start;
-  background-color: gray;
-  height: 2px;
-  width: 1px;
-  position: absolute;
-  z-index:10;
-  bottom: 356px;
-  left: 6%;
-}
 .sml-cir1 {
   background-color: rgb(163, 83, 143);
   height: 55px;
@@ -201,12 +191,23 @@ input {
   right: 9.75%;
 }
 .humans {
-
-  background-color: gray;
-  height: 2px;
-  width: 1px;
+  display: flex;
+  background-color: transparent;
   position: absolute;
   z-index:10;
-  bottom: 356px;
-  left: 6%;
+  bottom: 154px;
+  left: 7%;
+  z-index: 5;
+  
+}
+.human1 {
+  width: 60px;
+  height: 120px;
+  object-fit: cover;
+  /* background-color:rgb(42, 102, 130); */
+  /* margin: 0 0 5px 0; */
+  z-index: 5;
+  /* margin-trim: 5px; */
+
+
 }
